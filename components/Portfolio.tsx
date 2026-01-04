@@ -39,7 +39,7 @@ export default function Portfolio() {
       category: "Frontend and Authentication ",
       technologies: ["React", "Firebase", "MongoDB", "CSS", "React Router"],
       description: "A platform for artists to showcase their artwork, explore others' creations, and interact through likes and favorites. Artists can add, update, and manage their artwork while users can browse and favorite pieces.",
-      liveLink: "https://super-pudding-d204a9.netlify.app/",
+      liveLink: "https://ornate-capybara-053131.netlify.app/",
       githubLink: "https://github.com/sakibulla/PH_AS-10_Client",
       challenges: [
         "Creating an intuitive artwork upload and management system",
