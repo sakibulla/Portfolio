@@ -29,7 +29,7 @@ export default function Hero() {
           
           <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
             <Image
-              src="/profile.png"
+              src="/profile-small.png"
               alt="Md. Fahmidul Hasan"
               width={160}
               height={160}
