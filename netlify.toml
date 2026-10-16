@@ -6,8 +6,18 @@
   directory = "netlify/functions"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/*.html"
+  to = "/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/js/*"
+  to = "/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/css/*"
+  to = "/:splat"
   status = 200
 
 [[headers]]
@@ -20,6 +30,11 @@
 
 [[headers]]
   for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_next/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 

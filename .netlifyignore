@@ -1,0 +1,3 @@
+# Don't ignore the out folder on Netlify
+!out/
+!out/_next/
